@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/projectitem/AIOT_opencloud/c2c/c2c.iml" filepath="$USER_HOME$/projectitem/AIOT_opencloud/c2c/c2c.iml" />
+      <module fileurl="file://$USER_HOME$/projectitem/AIOT_opencloud/c2c/c2c.iml" filepath="$USER_HOME$/projectitem/AIOT_opencloud/c2c/c2c.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jforum2-code-r719-trunk.iml" filepath="$PROJECT_DIR$/.idea/jforum2-code-r719-trunk.iml" />
+      <module fileurl="file://$USER_HOME$/projectitem/AIOT_opencloud/oauth2/oauth2.iml" filepath="$USER_HOME$/projectitem/AIOT_opencloud/oauth2/oauth2.iml" />
+      <module fileurl="file://$USER_HOME$/projectitem/AIOT_opencloud/opencloud.iml" filepath="$USER_HOME$/projectitem/AIOT_opencloud/opencloud.iml" />
+      <module fileurl="file://$USER_HOME$/projectitem/AIOT_opencloud/opencloud-api/opencloud-api.iml" filepath="$USER_HOME$/projectitem/AIOT_opencloud/opencloud-api/opencloud-api.iml" />
+      <module fileurl="file://$USER_HOME$/projectitem/AIOT_opencloud/opencloud-gateway/opencloud-gateway.iml" filepath="$USER_HOME$/projectitem/AIOT_opencloud/opencloud-gateway/opencloud-gateway.iml" />
+      <module fileurl="file://$USER_HOME$/projectitem/AIOT_opencloud/opencloud-web/opencloud-web.iml" filepath="$USER_HOME$/projectitem/AIOT_opencloud/opencloud-web/opencloud-web.iml" />
+      <module fileurl="file://$USER_HOME$/projectitem/AIOT_opencloud/smarthome-skill/smarthome-skill.iml" filepath="$USER_HOME$/projectitem/AIOT_opencloud/smarthome-skill/smarthome-skill.iml" />
+    </modules>
+  </component>
+</project>

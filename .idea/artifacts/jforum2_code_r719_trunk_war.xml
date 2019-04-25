@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jforum2-code-r719-trunk:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="jforum.war">
+      <element id="artifact" artifact-name="jforum2-code-r719-trunk:war exploded" />
+    </root>
+  </artifact>
+</component>

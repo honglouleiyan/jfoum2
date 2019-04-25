@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/../jeesuite-bestpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../jeesuite-bestpl/bestpl-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../jeesuite-bestpl/bestpl-portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../jeesuite-bestpl/bestpl-posts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../jeesuite-bestpl/bestpl-reward" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../pybbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../solo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../symphony" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/core" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/datasource" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/device" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/device-access" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/hisense-iot" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/ifttt" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/manager" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/miot" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/oss" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/ota" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/parent" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/resource" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/service" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/template" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_basic_server/user" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_opencloud/c2c" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_opencloud/oauth2" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_opencloud/opencloud-api" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_opencloud/opencloud-gateway" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_opencloud/opencloud-web" charset="UTF-8" />
+    <file url="file://$USER_HOME$/projectitem/AIOT_opencloud/smarthome-skill" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

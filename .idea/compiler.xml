@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="c2c" />
+        <module name="jforum2-code-r719-trunk" />
+        <module name="oauth2" />
+        <module name="opencloud-api" />
+        <module name="opencloud-gateway" />
+        <module name="opencloud-web" />
+        <module name="smarthome-skill" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="c2c" target="1.8" />
+      <module name="jeesns" target="1.8" />
+      <module name="jeesns-service" target="1.8" />
+      <module name="jeesns-web" target="1.8" />
+      <module name="jforum2-code-r719-trunk" target="1.8" />
+      <module name="maven-archiver" target="1.5" />
+      <module name="maven-archiver (1)" target="1.5" />
+      <module name="maven-archiver (2)" target="1.5" />
+      <module name="oauth2" target="1.8" />
+      <module name="opencloud" target="1.5" />
+      <module name="opencloud-api" target="1.8" />
+      <module name="opencloud-gateway" target="1.8" />
+      <module name="opencloud-web" target="1.8" />
+      <module name="pybbs" target="1.8" />
+      <module name="smarthome-skill" target="1.8" />
+      <module name="solo" target="1.8" />
+      <module name="symphony" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="c2c" options="-parameters -parameters" />
+      <module name="oauth2" options="-parameters -parameters" />
+      <module name="opencloud-api" options="-parameters -parameters" />
+      <module name="opencloud-gateway" options="-parameters -parameters" />
+      <module name="opencloud-web" options="-parameters -parameters" />
+      <module name="pybbs" options="-parameters" />
+      <module name="smarthome-skill" options="-parameters -parameters" />
+    </option>
+  </component>
+</project>

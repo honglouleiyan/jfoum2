@@ -1,0 +1,141 @@
+10:04:21.394 YIIU [restartedMain] INFO  co.yiiu.pybbs.PybbsApplication - Starting PybbsApplication on heavendeMacBook-Pro.local with PID 55636 (/Users/heaven/eclipse-workspace/pybbs/target/classes started by heaven in /Users/heaven/eclipse-workspace/jforum2-code-r719-trunk)
+10:04:21.398 YIIU [restartedMain] INFO  co.yiiu.pybbs.PybbsApplication - The following profiles are active: dev
+10:04:21.474 YIIU [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:04:21.474 YIIU [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10:04:23.936 YIIU [restartedMain] ERROR c.yiiu.pybbs.config.DataSourceHelper - No timezone mapping entry for 'GMT 8'
+10:04:23.936 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceHelper' of type [co.yiiu.pybbs.config.DataSourceHelper$$EnhancerBySpringCGLIB$$f49913c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:23.938 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfig' of type [co.yiiu.pybbs.config.DataSourceConfig$$EnhancerBySpringCGLIB$$48c35d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:23.954 YIIU [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:04:24.013 YIIU [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:04:24.016 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:24.042 YIIU [restartedMain] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 5.2.3 by Boxfuse
+10:04:24.060 YIIU [restartedMain] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:mysql://localhost:3306/pybbs (MySQL 5.7)
+10:04:24.106 YIIU [restartedMain] WARN  o.f.c.i.s.f.FileSystemScanner - Skipping filesystem location:db/migration (not found)
+10:04:24.378 YIIU [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.119s)
+10:04:24.398 YIIU [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `pybbs`: 1.4
+10:04:24.400 YIIU [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `pybbs` is up to date. No migration necessary.
+10:04:24.409 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'flywayConfig' of type [co.yiiu.pybbs.config.FlywayConfig$$EnhancerBySpringCGLIB$$217199b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:24.412 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisPlusConfig' of type [co.yiiu.pybbs.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$f6e3b891] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:24.566 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisSqlSession' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:24.601 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:24.620 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$2c6c46af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:24.654 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:24.933 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:24.936 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserMapper' of type [com.sun.proxy.$Proxy63] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:24.939 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'adminUserService' of type [co.yiiu.pybbs.service.AdminUserService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.015 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.017 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.031 YIIU [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: co.yiiu.pybbs.model.RolePermission.
+10:04:25.067 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.070 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [com.sun.proxy.$Proxy67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.070 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionService' of type [co.yiiu.pybbs.service.RolePermissionService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.070 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleService' of type [co.yiiu.pybbs.service.RoleService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.130 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.134 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionMapper' of type [com.sun.proxy.$Proxy68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.136 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'permissionService' of type [co.yiiu.pybbs.service.PermissionService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.137 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myShiroRealm' of type [co.yiiu.pybbs.config.realm.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.273 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'systemConfigMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.274 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'systemConfigMapper' of type [com.sun.proxy.$Proxy70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.287 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisService' of type [co.yiiu.pybbs.config.service.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.287 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'systemConfigService' of type [co.yiiu.pybbs.service.SystemConfigService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.287 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [co.yiiu.pybbs.config.ShiroConfig$$EnhancerBySpringCGLIB$$ca4c23f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.642 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myCredentialsMatcher' of type [co.yiiu.pybbs.config.realm.MyCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.802 YIIU [restartedMain] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+10:04:25.887 YIIU [restartedMain] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+10:04:25.896 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rememberMeCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.904 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rememberMeManager' of type [org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.908 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:25.909 YIIU [restartedMain] INFO  co.yiiu.pybbs.config.ShiroConfig - 开始配置shiroFilter...
+10:04:26.133 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eea3da15] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:26.159 YIIU [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:04:26.871 YIIU [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+10:04:26.891 YIIU [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+10:04:26.904 YIIU [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:04:26.905 YIIU [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+10:04:26.920 YIIU [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/heaven/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10:04:27.051 YIIU [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:04:27.051 YIIU [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5577 ms
+10:04:27.348 YIIU [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: co.yiiu.pybbs.model.TopicTag.
+10:04:27.487 YIIU [restartedMain] WARN  c.b.m.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: co.yiiu.pybbs.model.Collect.
+10:04:27.972 YIIU [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - 开始配置freemarker全局变量...
+10:04:27.979 YIIU [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - freemarker全局变量配置完成!
+10:04:27.980 YIIU [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - 开始配置freemarker自定义标签...
+10:04:27.988 YIIU [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfig - freemarker自定义标签配置完成!
+10:04:29.286 YIIU [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:04:29.353 YIIU [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+10:04:29.392 YIIU [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:04:29.411 YIIU [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+10:04:29.417 YIIU [restartedMain] INFO  co.yiiu.pybbs.PybbsApplication - Started PybbsApplication in 29.346 seconds (JVM running for 31.569)
+10:04:29.453 YIIU [restartedMain] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+10:04:43.698 YIIU [http-nio-8088-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1554170337; sid=24rb14uh9eh98o8vvkf2t2p3n8; JSESSIONID=A9A873B907C04409349D3AD4B18C1394; Hm_lpvt_6e79d941db914e4195f4a839b06f2567=1554343463] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+10:04:43.713 YIIU [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:04:43.714 YIIU [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:04:43.728 YIIU [http-nio-8088-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+10:04:43.812 YIIU [http-nio-8088-exec-1] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+10:04:43.836 YIIU [http-nio-8088-exec-1] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+10:04:43.881 YIIU [http-nio-8088-exec-1] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+10:04:43.936 YIIU [http-nio-8088-exec-1] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+10:04:44.431 YIIU [http-nio-8088-exec-1] INFO  c.y.p.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/|tab=all|excitation=666ms
+10:04:44.482 YIIU [http-nio-8088-exec-2] INFO  c.y.p.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/static/theme/default/css/app.css|excitation=2ms
+10:04:44.743 YIIU [http-nio-8088-exec-3] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+10:04:44.750 YIIU [http-nio-8088-exec-3] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+10:04:44.848 YIIU [http-nio-8088-exec-3] INFO  c.y.p.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/api/notification/notRead|_=1554343484511|excitation=123ms
+10:42:47.996 YIIU [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m53s551ms).
+11:35:19.681 YIIU [http-nio-8088-exec-6] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:35:19.701 YIIU [http-nio-8088-exec-6] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:35:19.828 YIIU [http-nio-8088-exec-6] INFO  c.y.p.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/|tab=hot|excitation=222ms
+11:35:20.232 YIIU [http-nio-8088-exec-7] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:35:20.238 YIIU [http-nio-8088-exec-7] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:35:20.257 YIIU [http-nio-8088-exec-7] INFO  c.y.p.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/api/notification/notRead|_=1554348919902|excitation=39ms
+11:35:38.719 YIIU [http-nio-8088-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /forums/list.page
+11:35:38.753 YIIU [http-nio-8088-exec-9] INFO  c.y.p.interceptor.CommonInterceptor - 192.168.30.22|/error|excitation=24ms
+11:35:38.898 YIIU [http-nio-8088-exec-10] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+11:35:38.931 YIIU [http-nio-8088-exec-10] INFO  c.y.p.interceptor.CommonInterceptor - 192.168.30.22|/error|excitation=32ms
+11:35:52.884 YIIU [http-nio-8088-exec-2] INFO  c.y.p.interceptor.CommonInterceptor - 192.168.30.22|/|excitation=33ms
+11:35:52.926 YIIU [http-nio-8088-exec-3] INFO  c.y.p.interceptor.CommonInterceptor - 192.168.30.22|/static/theme/default/css/app.css|excitation=3ms
+11:35:59.856 YIIU [http-nio-8088-exec-4] INFO  c.y.p.interceptor.CommonInterceptor - 192.168.30.22|/tags|excitation=47ms
+11:36:00.987 YIIU [http-nio-8088-exec-5] INFO  c.y.p.interceptor.CommonInterceptor - 192.168.30.22|/|excitation=20ms
+11:36:08.743 YIIU [http-nio-8088-exec-7] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:36:08.750 YIIU [http-nio-8088-exec-7] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:36:08.754 YIIU [http-nio-8088-exec-7] ERROR c.y.p.e.GlobalExceptionHandler - null
+11:36:08.776 YIIU [http-nio-8088-exec-7] INFO  c.y.p.interceptor.CommonInterceptor - 192.168.30.22|/user/honglouleiyan@163.com|excitation=49ms
+11:36:12.052 YIIU [http-nio-8088-exec-8] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:36:12.057 YIIU [http-nio-8088-exec-8] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:36:12.058 YIIU [http-nio-8088-exec-8] ERROR c.y.p.e.GlobalExceptionHandler - null
+11:36:12.059 YIIU [http-nio-8088-exec-8] INFO  c.y.p.interceptor.CommonInterceptor - 192.168.30.22|/user/honglouleiyan@163.com|excitation=21ms
+11:36:20.934 YIIU [http-nio-8088-exec-10] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:36:20.941 YIIU [http-nio-8088-exec-10] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:36:20.960 YIIU [http-nio-8088-exec-10] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:36:20.963 YIIU [http-nio-8088-exec-10] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:36:21.019 YIIU [http-nio-8088-exec-10] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:36:21.232 YIIU [http-nio-8088-exec-10] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:36:21.246 YIIU [http-nio-8088-exec-10] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:36:21.263 YIIU [http-nio-8088-exec-10] INFO  c.y.p.interceptor.CommonInterceptor - 192.168.30.22|/topic/4|excitation=341ms
+11:49:35.786 YIIU [http-nio-8088-exec-4] INFO  c.y.p.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/|tab=good|excitation=153ms
+11:49:35.871 YIIU [http-nio-8088-exec-5] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:49:35.884 YIIU [http-nio-8088-exec-5] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:49:35.899 YIIU [http-nio-8088-exec-5] INFO  c.y.p.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/api/notification/notRead|_=1554349775833|excitation=51ms
+11:49:36.475 YIIU [http-nio-8088-exec-6] INFO  c.y.p.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/|tab=newest|excitation=31ms
+11:49:36.556 YIIU [http-nio-8088-exec-7] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:49:36.571 YIIU [http-nio-8088-exec-7] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:49:36.581 YIIU [http-nio-8088-exec-7] INFO  c.y.p.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/api/notification/notRead|_=1554349776515|excitation=39ms
+11:49:37.177 YIIU [http-nio-8088-exec-8] INFO  c.y.p.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/|tab=noanswer|excitation=26ms
+11:49:37.247 YIIU [http-nio-8088-exec-9] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:49:37.254 YIIU [http-nio-8088-exec-9] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:49:37.258 YIIU [http-nio-8088-exec-9] INFO  c.y.p.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/api/notification/notRead|_=1554349777217|excitation=33ms
+11:49:38.147 YIIU [http-nio-8088-exec-10] INFO  c.y.p.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/|tab=all|excitation=30ms
+11:49:38.211 YIIU [http-nio-8088-exec-1] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:49:38.218 YIIU [http-nio-8088-exec-1] INFO  c.y.p.config.service.RedisService - redis配置信息不全或没有配置...
+11:49:38.221 YIIU [http-nio-8088-exec-1] INFO  c.y.p.interceptor.CommonInterceptor - 0:0:0:0:0:0:0:1|/api/notification/notRead|_=1554349778169|excitation=26ms
+11:49:39.472 YIIU [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m20s986ms).
+12:58:39.133 YIIU [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m59s363ms).
+13:13:49.574 YIIU [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m58s229ms).
+13:40:13.902 YIIU [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m54s317ms).
+13:52:37.978 YIIU [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m54s71ms).
+14:09:21.110 YIIU [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m43s132ms).
+17:03:20.396 YIIU [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s17ms).
+17:04:57.882 YIIU [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s471ms).
+17:58:38.907 YIIU [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s647ms).
+18:55:03.153 YIIU [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m11s945ms).
+18:57:47.383 YIIU [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m14s212ms).
+19:14:45.478 YIIU [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m57s990ms).
