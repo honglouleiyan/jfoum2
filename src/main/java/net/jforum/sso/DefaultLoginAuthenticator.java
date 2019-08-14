@@ -104,7 +104,7 @@ public class DefaultLoginAuthenticator implements LoginAuthenticator
 				params.put("account", username);
 				params.put("password", Md5Util.MD5_32(password));
 				Map<String, String> headerMap = HttpCommonRequest.getHeaderMap(new HttpCommomHeader());
-				String retStr = PooledHttpClientUtils.doPost("http://110.43.34.124/saas/v1.0" + "/lumi/user/login", headerMap, params);
+				String retStr = PooledHttpClientUtils.doPost("https://aiot-rpc.aqara.cn/saas/v1.0" + "/lumi/user/login", headerMap, params);
 				LOGGER.info("retStr:" + retStr);
 				if (StringUtils.isNotBlank(retStr)) {
 					ResponseMsg responseMsg = JSONObject.toJavaObject(JSONObject.parseObject(retStr), ResponseMsg.class);

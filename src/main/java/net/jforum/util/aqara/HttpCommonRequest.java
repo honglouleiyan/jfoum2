@@ -19,10 +19,14 @@ import java.util.Map;
 public class HttpCommonRequest {
 
     private static final Logger LOGGER = Logger.getLogger(HttpCommonRequest.class);
+//
+//    private static String opencloudAppId = "d0ec0978a70fe6f609c130ab";
+//
+//    private  static String opencloudAppKey = "7Cn6nO3xE5YkPLFuGPGZvnvUrbwVbKob";
 
-    private static String opencloudAppId = "d0ec0978a70fe6f609c130ab";
+    private static String opencloudAppId = "4f050659665803280ba5162b";
 
-    private  static String opencloudAppKey = "7Cn6nO3xE5YkPLFuGPGZvnvUrbwVbKob";
+    private  static String opencloudAppKey = "xjlxe2u0OkHTLTM7AEYrMa0YbcToOXOU";
 
     /**
      * 获取http请求的公共头部信息
